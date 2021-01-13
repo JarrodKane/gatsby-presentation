@@ -1,0 +1,34 @@
+{
+  "name": "gatsby-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gatsby Presentation",
+  "author": "Trojan-Cat",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-mdx": "^1.8.0",
+    "gatsby-plugin-styled-components": "^3.8.0",
+    "gatsby-theme-mdx-deck": "^4.1.0",
+    "mdx-deck": "^4.1.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.2.1",
+    "theme-ui": "^0.3.5"
+  },
+  "devDependencies": {
+    "mdx-deck-live-code": "^1.0.1"
+  }
+}
