@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const Calc = styled.div`
   display: flex;
-  width: 40vw;
-  height: 200px;
+  width: 30vw;
+  height: 150px;
   align-items: center;
   justify-content: center;
   background: #db3a00;

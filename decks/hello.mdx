@@ -1,26 +1,30 @@
-import whats from '../src/images/whats.png';
 import Counter from '../src/components/Counter.js';
-import Layout from '../src/components/Layout.js';
+import { Layout, ImageHolder } from '../src/components/Layout.js';
+import Img from 'gatsby-image';
 
-<Layout title="What's the deal with Gatsby Js">
+import whats from '../src/images/whats.png';
+import ecoSystem from '../src/images/ecoSystem.png';
+import gats1 from '../src/images/gats1.png';
+import graphql2 from '../src/images/graphql2.png';
+import lego from '../src/images/lego.png';
+
+<Layout title="What's the deal with Gatsbyjs">
 
 "Gatsbyjs is React-based open-source framework for creating websites and apps"
 
-<img src={whats} alt="What's the deal with image" /></Layout>
+<img src={whats} alt="What's the deal with image" />
+
+</Layout>
 
 ---
 
 <Layout title="So what is it?">
-    
-Static site generator 
-<ul>
-    <li>no need to query the database each time</li>
-       <li>list 1</li>
-       </ul>
 
-serve up to the client -
-While it's still interactive for example this page has a simple counter
-hook in it
+- Static site generator
+- Static but still dynamic with react (PWA)
+- Components, React
+- Node for development environment
+- GraphQL
 
 <Counter />
 
@@ -28,9 +32,108 @@ hook in it
 
 ---
 
-What's the deal with Gatsbyjs?
+<Layout title="What is it all about?">
+
+<ImageHolder>
+
+- It's lego
+- It's all about mixing together React components, and plugins from gatsby to create a website
+- Mesh system
+
+<img src={lego} alt="Showing how graphQL works" />
+
+</ImageHolder>
+
+</Layout>
 
 ---
 
-- List 1
-- list 2
+<Layout title="GraphQL">
+
+- Not organised in endpoints, but rather in terms and types, it easier to visualise and understand the connections
+- Can get more than one resource at once, gets all your data in one request
+- Can collect your data from many different forms at build time, and compile it into the one GrpahQL api
+- Always return predictable results
+- Fast, stable
+
+<img src={graphql2} alt="Showing how graphQL works" />
+<a href="https://www.netlify.com/blog/2020/01/21/advice-from-a-graphql-expert/" target="_blank">
+  Link to image
+</a>
+
+</Layout>
+
+---
+
+<Layout title="So what do Developers get from it?" >
+
+- Great community and documentation
+- Gatsby Ecosystem
+- NodeJS - Host of resources out of the box (hot reloading, code splitting...)
+- Starter files
+- Able to pull in data from various sources
+- Supports many CMS
+
+<img src={ecoSystem} alt="Gatsby plugin ecosystem" />
+
+</Layout>
+
+---
+
+<Layout title="Who is it for?">
+
+- Gatsby is not for everyone
+- Lower costs
+- GraphQl to get data
+- Security
+- Modern tooling and environment
+- Supports many CMS
+- Free
+- Has a team and support
+
+<img src={gats1} alt="setup of gatsby" />
+
+</Layout>
+
+---
+
+<Layout title="Refernces">
+
+### Project
+
+<a href="https://www.npmjs.com/package/gatsby-theme-mdx-deck" target="_blank">
+  gatsby-theme-mdx-deck
+</a>
+
+<a href="https://www.gatsbyjs.com/docs/quick-start/" target="_blank">
+  Gatsby - Quick Start page
+</a>
+
+### Theory
+
+<a href="https://www.gatsbyjs.com/docs/conceptual/" target="_blank">
+  Gatsby Conceptual guide
+</a>
+<a href="https://www.netlify.com/blog/2020/01/21/advice-from-a-graphql-expert/" target="_blank">
+  Advice from a GraphQL Expert
+</a>
+<a href="https://www.gatsbyjs.com/docs/conceptual/graphql-concepts/" target="_blank">
+  GraphQl concepts
+</a>
+<a
+  href="https://scotch.io/tutorials/graphql-the-good-and-the-bad#:~:text=GraphQL%20provides%20a%20complete%20and,and%20enables%20powerful%20developer%20tools."
+  target="_blank"
+>
+  GraphQL - The Good and the Bad
+</a>
+<a href="https://bradfrost.com/blog/post/atomic-web-design/" target="_blank">
+  atomic design
+</a>
+<a
+  href="https://www.contentstack.com/blog/all-about-headless/static-site-generator-gatsby-and-contentstack/#:~:text=Ease%20of%20scalability%2C%20lack%20of,than%20running%20a%20dynamic%20one."
+  target="_blank"
+>
+  Enjoy All the Benefits of a Modern Website Framework With Gatsby and Contentstack
+</a>
+
+</Layout>

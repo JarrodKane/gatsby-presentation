@@ -26,6 +26,19 @@ const Content = styled.div`
   width: 100vw;
   height: 100%;
   padding: 0px 50px;
+
+  img {
+    width: auto;
+    height: auto;
+  }
+`;
+
+const ImageHolder = styled.div`
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 50%;
+  }
 `;
 
 const Title = styled.h1`
@@ -38,7 +51,6 @@ const Title = styled.h1`
 `;
 
 const Layout = ({ children, title }) => {
-  console.log(children);
   return (
     <Container>
       <Title>{title}</Title>
@@ -47,4 +59,4 @@ const Layout = ({ children, title }) => {
   );
 };
 
-export default Layout;
+export { Layout, ImageHolder };
