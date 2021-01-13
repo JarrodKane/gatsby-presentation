@@ -16,20 +16,29 @@ const Container = styled.div`
   width: 100vw;
 `;
 
+const Title = styled.h1`
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  font-size: 3rem;
+  height: 100px;
+`;
+
 const Content = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: #362066;
   color: white;
   width: 100vw;
-  height: 100%;
-  padding: 0px 50px;
+  height: 90vh;
+  padding: 50px 50px;
 
   img {
     width: auto;
-    height: auto;
+    height: 40%;
   }
 `;
 
@@ -38,16 +47,8 @@ const ImageHolder = styled.div`
   flex-direction: row;
   img {
     width: 50%;
+    height: 80%;
   }
-`;
-
-const Title = styled.h1`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 3rem;
-  height: 100px;
 `;
 
 const Layout = ({ children, title }) => {
